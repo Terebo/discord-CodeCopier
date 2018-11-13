@@ -1,6 +1,5 @@
 const client = require('discord-rich-presence')('470242275671277578');
-let currentmonney = 0;
-let timesprinted = 0;
+let currentmonney = 0, timesprinted  = 0;
 setInterval(function(){ 
   currentmonney = currentmonney + 500;
   timesprinted = timesprinted + 1;
@@ -9,7 +8,7 @@ setInterval(function(){
     state: 'Printed: ' + timesprinted,
     details: '€ ' + currentmonney + ",-",
     startTimestamp: Date.now(),
-    endTimestamp: 1541174400,
+    endTimestamp: Date.now() + 30000,
     largeImageKey: 'printer',
     largeImageText: "Printer",
     smallImageKey: 'euro',
