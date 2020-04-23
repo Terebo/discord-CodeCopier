@@ -9,6 +9,6 @@ To install it,
 make sure to have nodejs installed.
 
 `npm install` to create the massive blackhole on your harddrive.
-
+make sure to install https://www.npmjs.com/package/discord-rich-presence and all of it's dependencies.
 `node index.js` to run this. make sure to run this on the same machine where your discord is running.
 
