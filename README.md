@@ -6,9 +6,9 @@ Due that people are asking me on discord how i did it, this is how i did it.
 To install it,
 
 
-make sure to have nodejs installed.
+make sure to have nodejs and npm installed.
 
-make sure to install https://www.npmjs.com/package/discord-rich-presence and all of it's dependencies.
+also make sure to install https://www.npmjs.com/package/discord-rich-presence and all of it's dependencies.
 
 `node index.js` to run this. make sure to run this on the same machine where your discord is running.
 
