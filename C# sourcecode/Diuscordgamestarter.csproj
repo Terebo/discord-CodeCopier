@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>codeblock3.ico</ApplicationIcon>
+    <Authors>Terebo</Authors>
+    <Company>Terebo i guess</Company>
+    <Product>Discord Game Starter</Product>
+    <PackageIcon>codeblock3.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Terebo/discord-CodeCopier/</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Tijs\Desktop\codeblock3.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="codeblock3.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
