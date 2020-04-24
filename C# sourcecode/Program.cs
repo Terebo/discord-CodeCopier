@@ -25,7 +25,7 @@ namespace Diuscordgamestarter
                 {
                     Console.WriteLine("Game set to Notepad++");
                     Console.Title = "Notepad++";
-                    System.Diagnostics.Process.Start("CMD.exe", "/C node D:/discord-moneyprinter-master/notepad.js");
+                    System.Diagnostics.Process.Start("CMD.exe", "/C node notepad.js");
                     Environment.Exit(0);
                 }
 
@@ -33,7 +33,7 @@ namespace Diuscordgamestarter
                 {
                     Console.WriteLine("Game set to Visual Basic");
                     Console.Title = "Visual Basic";
-                    System.Diagnostics.Process.Start("CMD.exe", "/C node D:/discord-moneyprinter-master/virtual.js");
+                    System.Diagnostics.Process.Start("CMD.exe", "/C node virtual.js");
                     Environment.Exit(0);
                 }
                 //look for the pressing of the esc key
