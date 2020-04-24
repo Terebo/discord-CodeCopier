@@ -12,3 +12,4 @@ also make sure to install https://www.npmjs.com/package/discord-rich-presence an
 
 `node index.js` to run this. make sure to run this on the same machine where your discord is running.
 
+Sourcecode for a simple C# console starter is included, make sure to compile it into the same folder as the main JavaScript files. only works on Windows, sorry.
